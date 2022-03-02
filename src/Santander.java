@@ -5,11 +5,17 @@ public class Santander {
 		cliente.setCpf("222.222.222-22");
 		cliente.setProfissao("Engenheiro de Software - Fullstack");
 
-		Conta conta = new Conta(1234,234987);
-		conta.deposita(5000);
-		conta.setTitular(cliente);
+		Conta ContaCorrente = new ContaCorrente(123, 123001);
+		ContaCorrente.deposita(5000);
+		ContaCorrente.setTitular(cliente);
 
-		System.out.println(conta.getTitular().getNome());
-		System.out.println(conta.getTitular());
+		Conta ContaPoupanca = new ContaPoupanca(456, 456001);
+		ContaPoupanca.deposita(5000);
+		ContaPoupanca.setTitular(cliente);
+
+		ContaCorrente.transfere(1000, ContaPoupanca);
+
+		System.out.println("Saldo da Conta Corrente: " + ContaCorrente.getSaldo());
+		System.out.println("Saldo da Conta Poupanca: " + ContaPoupanca.getSaldo());
 	}
 }
