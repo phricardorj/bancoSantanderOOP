@@ -19,7 +19,7 @@ implementa uma interface.`
 `Referências de tipos de classes mais genéricas referenciam objetos mais específicos.`
 
 ## O que é Interfaces?
-`Ela é um contrato onde quem assina se responsabiliza por implementar esses métodos (cumprir o contrato).`
+`Interfaces são uma alternativa a herança referente ao polimorfismo. Ela é um contrato onde quem assina se responsabiliza por implementar esses métodos (cumprir o contrato).`
 
 ## Por que usar Interfaces?
 `Não existe herança múltipla em Java. Podemos contornar esta situação com o uso de interfaces. Utilizando interfaces temos uma 
