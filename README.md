@@ -1,5 +1,5 @@
 # 🏦 | Orientação a Objetos com Java
-`Projeto para reforçar meus conhecimentos de Orientação a Objetos com Java.`
+`Projeto para reforçar meus conhecimentos de Orientação a Objetos em Java.`
 
 <img alt="Badge Adicionado" title="Adicionado" src="https://img.shields.io/badge/-Adicionado-brightgreen"> Classes e Objetos;<br>
 <img alt="Badge Adicionado" title="Adicionado" src="https://img.shields.io/badge/-Adicionado-brightgreen"> Encapsulamento;<br>
